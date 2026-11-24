@@ -1,0 +1,27 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos pesados de datos (EPH - ~880 MB de microdatos del INDEC)
+datos/
+
+# Imágenes y gráficos locales (ya enlazados en el informe)
+*.png
+*.jpg
+*.jpeg
+*.svg
+notebooks/*.png
+
+# Caché de Python y Jupyter Notebooks
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Archivos de configuración del sistema y editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
